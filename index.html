@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tite>css positioning</tite>
+        <style>
+            body{
+                background-color: rgb(51, 118, 176);
+                color: white;
+                padding: 20px;
+                border-radius: 15px;
+                font-size: 50px;
+            }
+            .box{
+                margin: 30px;
+                padding: 20px;
+                font-size: 24px;
+                border-radius: 15px;
+                color: azure;
+            }
+            .normal{
+                background-color: tomato;
+
+            }
+            .sticky{
+                background-color: greenyellow;
+                position: sticky;
+                top: 0px;
+            }
+            .relative{
+                background-color: purple;
+                position: relative;
+                top: 12px;
+                left: 20px;
+            }
+
+            .absolute{
+                background-color: pink;
+                position: absolute;
+                top: 200px;
+                left: 50px;
+            }
+            .fixed{
+                background-color: cornflowerblue;
+                position: fixed;
+                bottom: 10px;
+               right: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>css positioning</h1>
+        <div class="box normal">🚶 i am a normal box</div>
+        <div class="box sticky">🖇️ i am a sticky box</div>
+        <div class="box relative">📦 i am a relative box</div>
+        <div class="box absolute">🎯 i am a absolute box</div>
+        <div class="box fixed">📌  i am a fixed box</div>
+    </body>
+</html>
